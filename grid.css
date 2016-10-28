@@ -4,8 +4,8 @@
  *
  * @author      Samet Tarim
  * @copyright   (c) 2016, Samet Tarim
- * @link        http://samet-tarim.de/
- * @package     Melibu
+ * @link        http://samet-tarim.de/css-grids
+ * @package     MelAbu
  * @subpackage  Css grid set
  * @since       1.0
  */
@@ -29,15 +29,14 @@
 
 .l-clear {
     display: block;
-}
-
-/* End hide from IE-mac */
-.l-clear:after {
-    content: ""; 
-    display: block; 
-    height: 0;
-    clear: both;
-    visibility: hidden;
+    /* End hide from IE-mac */
+    &:after {
+        content: ""; 
+        display: block; 
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
 }
 
 @media screen and (min-width:768px) {

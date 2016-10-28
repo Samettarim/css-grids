@@ -4,11 +4,13 @@
  *
  * @author      Samet Tarim
  * @copyright   (c) 2016, Samet Tarim
- * @link        http://samet-tarim.de/
- * @package     Melibu
+ * @link        http://samet-tarim.de/css-grids
+ * @package     MelAbu
  * @subpackage  Css grid set
  * @since       1.0
  */
+
+@grid: ~"only screen and (min-width: 768px)";
 
 /* BEM: Prefix for layout "l-" */
 [class*="l-grid"] {
@@ -39,7 +41,7 @@
     }
 }
 
-@media screen and (min-width:768px) {
+@media @grid {
 
     /* 960px */
     [class*="l-grid"] {

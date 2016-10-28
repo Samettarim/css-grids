@@ -65,6 +65,10 @@ project css or less/sass folder structur and use the grid, col, cell or row as s
 
 #### Use
 
+##### Example
+
+###### With cell grid
+
 ```ruby
 <div class="l-cell--2"></div>
 <div class="l-cell--8"></div>

@@ -1,7 +1,8 @@
 # CSS grid set
 
 ![alt text](https://img.shields.io/badge/build-passing-brightgreen.svg "Build passing")
-![alt text](https://img.shields.io/badge/css-tested-brightgreen.svg "CSS")
+![alt text](https://img.shields.io/badge/css-3.0%20tested-brightgreen.svg "CSS 3.0 tested")
+![alt text](https://img.shields.io/badge/license-CCO-blue.svg "CCO 1.0")
 ![alt text](https://img.shields.io/badge/tests-1%2F1-blue.svg "Tests 1/1")
 
 My own css grid repository
@@ -26,21 +27,33 @@ project css or less/sass folder structur and use the grid, col, cell or row as s
 
 ###### @import
 
-```ruby
+```less
 @import 'your-css-folder/grid.css';
 ```
 ###### @import
 
-```ruby
+```less
 <link rel="stylesheet" href="your-css-folder/grid.css">
 ```
 
 #### Example
 
-```ruby
+```less
 @import 'your-css-folder/grid.css';
 @import 'your-css-folder/base.less';
 @import 'your-css-folder/layout.less';
+```
+
+###### Use
+
+```html
+<div class="l-cell--6">
+    <p>Content</p>
+</div>
+<div class="l-cell--10">
+    <p>Content</p>
+</div>
+<div class="l-clear"></div>
 ```
 
 ## Contribute

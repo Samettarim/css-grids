@@ -1,7 +1,7 @@
 # CSS grid set
 
 ![alt text](https://img.shields.io/badge/build-passing-brightgreen.svg "Build passing")
-![alt text](https://img.shields.io/badge/css-tested-brightgreen.svg "CSS")
+![alt text](https://img.shields.io/badge/css-3.0%20tested-brightgreen.svg "CSS 3.0 tested")
 ![alt text](https://img.shields.io/badge/tests-1%2F1-blue.svg "Tests 1/1")
 
 My own css grid repository

@@ -1,0 +1,50 @@
+/**
+ *
+ * LAYOUT SYSTEM CELL
+ *
+ * @author      Samet Tarim
+ * @copyright   (c) 2016, Samet Tarim
+ * @link        http://samet-tarim.de/
+ * @package     Melibu
+ * @subpackage  Css grid set
+ * @since       1.0
+ *
+ * FORMEL:
+ * 10 / 1024 = .048828125 * 100 = .48828125 (margin left and right)
+ * %-Wert = px-Wert / 1024 * 100 = xxx (cells)
+ */
+
+/* BEM: Prefix for layout "l-" */
+[class*="l-cell"] {
+
+    width: auto;
+}
+
+@media screen and (min-width:768px) {
+
+    /* 1024px */
+    [class*="l-cell"] {
+
+        float: left;
+        margin: .48828125%;
+        padding: 0;
+    }
+
+    /* BEM: Modifier of module cell Seperator: "--" */
+    .l-cell--1  { width:5.859375%;  }  /*  60px */ 
+    .l-cell--2  { width:13.671875%; }  /* 140px */
+    .l-cell--3  { width:21.484375%; }  /* 220px */
+    .l-cell--4  { width:29.296875%; }  /* 300px */
+    .l-cell--5  { width:37.109375%; }  /* 380px */
+    .l-cell--6  { width:44.921875%; }  /* 460px */
+    .l-cell--7  { width:52.734375%; }  /* 540px */
+    .l-cell--8  { width:60.546875%; }  /* 620px */
+    .l-cell--9  { width:68.359375%; }  /* 700px */
+    .l-cell--10 { width:76.171875%; }  /* 780px */
+    .l-cell--11 { width:83.984375%; }  /* 860px */
+    .l-cell--12 { width:91.796875%; }  /* 940px */
+    .l-cell--13 { width:98.6328125%; }  /* 1010px rest for margin 10px */
+
+} /* End @media */
+
+/* eof */ 

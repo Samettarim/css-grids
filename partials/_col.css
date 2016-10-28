@@ -1,0 +1,61 @@
+/**
+ *
+ * LAYOUT SYSTEM COL
+ *
+ * @author      Samet Tarim
+ * @copyright   (c) 2016, Samet Tarim
+ * @link        http://samet-tarim.de/
+ * @package     Melibu
+ * @subpackage  Css grid set
+ * @since       1.0
+ *
+ * FORMEL:
+ * 10 / 1920 = 0,05208333333335 * 100 = .5208333333335 (margin left and right)
+ * %-Wert = px-Wert / 1920 * 100 = xxx (cols)
+ */
+
+/* BEM: Prefix for layout "l-" */
+[class*="l-col"] {
+    
+    width: auto;
+}
+
+@media screen and (min-width:768px) {
+
+    /* 1920px */
+    [class*="l-col"] {
+        
+        float: left;
+        margin: .5208333333335%;
+        padding: 0;
+    }
+
+    /* BEM: Modifier of module col Seperator: "--" */
+    .l-col--1  { width:3.125%; }            /*  60px */ 
+    .l-col--2  { width:7.291666666667%;  }  /* 140px */
+    .l-col--3  { width:11.458333333333%; }  /* 220px */
+    .l-col--4  { width:15.625%; }           /* 300px */
+    .l-col--5  { width:19.791666666667%; }  /* 380px */
+    .l-col--6  { width:23.958333333333%; }  /* 460px */
+    .l-col--7  { width:28.125%; }           /* 540px */
+    .l-col--8  { width:32.291666666667%; }  /* 620px */
+    .l-col--9  { width:36.458333333333%; }  /* 700px */
+    .l-col--10 { width:40.625%; }           /* 780px */
+    .l-col--11 { width:44.791666666667%; }  /* 860px */
+    .l-col--12 { width:48.958333333333%; }  /* 940px */
+    .l-col--13 { width:53.125%;  }          /* 1020px */ 
+    .l-col--14 { width:57.291666666667%; }  /* 1100px */
+    .l-col--15 { width:61.458333333333%; }  /* 1180px */
+    .l-col--16 { width:65.625%; }           /* 1260px */
+    .l-col--17 { width:69.791666666667%; }  /* 1340px */
+    .l-col--18 { width:73.958333333333%; }  /* 1420px */
+    .l-col--19 { width:78.125%; }           /* 1500px */
+    .l-col--20 { width:82.291666666667%; }  /* 1580px */
+    .l-col--21 { width:86.458333333333%; }  /* 1660px */
+    .l-col--22 { width:90.625%; }           /* 1740px */
+    .l-col--23 { width:94.791666666667%; }  /* 1820px */
+    .l-col--24 { width:98.958333333333%; }  /* 1900px rest for margin 20px */
+    
+} /* End @media */
+
+/* eof */ 

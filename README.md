@@ -25,6 +25,8 @@ My own css grid repository
 In general you should include the file `grid.css` in `build` into your 
 project css or less/sass folder structur and use the grid, col, cell or row as suggested in the docs for each grid, col, cell or row.
 
+#### Example
+
 ###### @import
 
 ```less
@@ -36,15 +38,7 @@ project css or less/sass folder structur and use the grid, col, cell or row as s
 <link rel="stylesheet" href="your-css-folder/grid.css">
 ```
 
-#### Example
-
-```less
-@import 'your-css-folder/grid.css';
-@import 'your-css-folder/base.less';
-@import 'your-css-folder/layout.less';
-```
-
-###### @Use
+###### @use
 
 ```html
 <div class="l-cell--6">

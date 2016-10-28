@@ -1,4 +1,4 @@
-# CSS grid set
+# CSS GRID SET
 
 ![alt text](https://img.shields.io/badge/build-passing-brightgreen.svg "Build passing")
 ![alt text](https://img.shields.io/badge/css-3.0%20tested-brightgreen.svg "CSS 3.0 tested")
@@ -30,7 +30,7 @@ project css or less/sass folder structur and use the grid, col, cell or row as s
 ```less
 @import 'your-css-folder/grid.css';
 ```
-###### @import
+###### @link
 
 ```html
 <link rel="stylesheet" href="your-css-folder/grid.css">
@@ -44,7 +44,7 @@ project css or less/sass folder structur and use the grid, col, cell or row as s
 @import 'your-css-folder/layout.less';
 ```
 
-###### Use
+###### @Use
 
 ```html
 <div class="l-cell--6">

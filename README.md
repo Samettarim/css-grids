@@ -29,18 +29,32 @@ project css or less/sass folder structur and use the grid, col, cell or row as s
 ```ruby
 @import 'your-css-folder/grid.css';
 ```
-###### @import
+```ruby
+@import 'your-css-folder/grid.less';
+```
+
+##### Stylesheet
+
+###### CSS
 
 ```ruby
 <link rel="stylesheet" href="your-css-folder/grid.css">
 ```
 
-#### Example
+##### Example
+
+###### CSS
 
 ```ruby
 @import 'your-css-folder/grid.css';
-@import 'your-css-folder/base.less';
-@import 'your-css-folder/layout.less';
+@import 'your-css-folder/base.css';
+@import 'your-css-folder/layout.css';
+```
+###### LESS
+```ruby
+@import 'your-less-folder/grid.less';
+@import 'your-less-folder/base.less';
+@import 'your-less-folder/layout.less';
 ```
 
 ## Contribute

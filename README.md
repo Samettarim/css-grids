@@ -24,7 +24,7 @@ My own css grid repository
 In general you should include the file `grid.css` in `build` into your 
 project css or less/sass folder structur and use the grid, col, cell or row as suggested in the docs for each grid, col, cell or row.
 
-##### @import
+#### @import
 
 ###### CSS
 
@@ -38,7 +38,7 @@ project css or less/sass folder structur and use the grid, col, cell or row as s
 @import 'your-css-folder/grid.less';
 ```
 
-##### Stylesheet
+#### Stylesheet
 
 ###### CSS
 
@@ -46,7 +46,7 @@ project css or less/sass folder structur and use the grid, col, cell or row as s
 <link rel="stylesheet" href="your-css-folder/grid.css">
 ```
 
-##### Example
+#### Example
 
 ###### CSS
 
@@ -56,10 +56,18 @@ project css or less/sass folder structur and use the grid, col, cell or row as s
 @import 'your-css-folder/layout.css';
 ```
 ###### LESS
+
 ```ruby
 @import 'your-less-folder/grid.less';
 @import 'your-less-folder/base.less';
 @import 'your-less-folder/layout.less';
+```
+
+#### Use
+
+```ruby
+<div class="l-cell--2"></div>
+<div class="l-cell--8"></div>
 ```
 
 ## Contribute

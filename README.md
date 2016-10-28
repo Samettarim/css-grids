@@ -32,7 +32,7 @@ project css or less/sass folder structur and use the grid, col, cell or row as s
 ```
 ###### @import
 
-```less
+```html
 <link rel="stylesheet" href="your-css-folder/grid.css">
 ```
 

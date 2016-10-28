@@ -29,14 +29,15 @@
 
 .l-clear {
     display: block;
-    /* End hide from IE-mac */
-    &:after {
-        content: ""; 
-        display: block; 
-        height: 0;
-        clear: both;
-        visibility: hidden;
-    }
+}
+
+/* End hide from IE-mac */
+.l-clear:after {
+    content: ""; 
+    display: block; 
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 
 @media screen and (min-width:768px) {

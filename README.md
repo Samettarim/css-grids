@@ -96,7 +96,7 @@ possible.
 
 ## Authors
 
-* **Samet Tarim** - *All works* - [ProDeveloper](https://profiles.wordpress.org/prodeveloper/)
+* **Samet Tarim** - *All works* - [ProDeveloper](https://www.tnado.com/author/prod3v3loper/)
 
 ## License
 

@@ -3,7 +3,7 @@
 ![alt text](https://img.shields.io/badge/build-passing-brightgreen.svg "Build passing")
 ![alt text](https://img.shields.io/badge/css-3.0%20tested-brightgreen.svg "CSS 3.0 tested")
 ![alt text](https://img.shields.io/badge/license-CCO-blue.svg "CCO 1.0")
-![alt text](https://img.shields.io/badge/tests-1%2F1-blue.svg "Tests 1/1")
+![alt text](https://img.shields.io/badge/tests-4%2F4-blue.svg "Tests 4/4")
 
 My own css grid repository
 
@@ -14,7 +14,7 @@ My own css grid repository
 ### This repository has some grids for you:
 
 * [l-cell](partials/_cell.css) 13 cell
-* [l-coll](partials/_col.css) 24 col
+* [l-col](partials/_col.css) 24 col
 * [l-grid](partials/_grid.css) 12 grid
 * [l-row](partials/_row.css) 16 row
 
@@ -40,11 +40,45 @@ project css or less/sass folder structur and use the grid, col, cell or row as s
 
 ###### @use
 
+12 grid
+```html
+<div class="l-grid--6">
+    <p>Content</p>
+</div>
+<div class="l-grid--6">
+    <p>Content</p>
+</div>
+<div class="l-clear"></div>
+```
+
+13 cell
 ```html
 <div class="l-cell--6">
     <p>Content</p>
 </div>
-<div class="l-cell--10">
+<div class="l-cell--7">
+    <p>Content</p>
+</div>
+<div class="l-clear"></div>
+```
+
+16 row
+```html
+<div class="l-row--8">
+    <p>Content</p>
+</div>
+<div class="l-row--8">
+    <p>Content</p>
+</div>
+<div class="l-clear"></div>
+```
+
+24 col
+```html
+<div class="l-col--12">
+    <p>Content</p>
+</div>
+<div class="l-col--12">
     <p>Content</p>
 </div>
 <div class="l-clear"></div>

@@ -100,4 +100,4 @@ possible.
 
 ## License
 
-[GNU](https://www.gnu.org/licenses/gpl-3.0.de.html)
+[GNU](https://github.com/prod3v3loper/css-grid/blob/master/LICENSE)

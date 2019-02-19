@@ -1,11 +1,12 @@
 # CSS GRID SET
 
-![alt text](https://img.shields.io/badge/build-passing-brightgreen.svg "Build passing")
-![alt text](https://img.shields.io/badge/css-3.0%20tested-brightgreen.svg "CSS 3.0 tested")
-![alt text](https://img.shields.io/badge/license-CCO-blue.svg "CCO 1.0")
-![alt text](https://img.shields.io/badge/tests-4%2F4-blue.svg "Tests 4/4")
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8b3e23d14b88426d83660ad87bca129d)](https://www.codacy.com/app/prod3v3loper/css-grid?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=prod3v3loper/css-grid&amp;utm_campaign=Badge_Grade)
+![Languages](https://img.shields.io/github/languages/count/prod3v3loper/css-grid.svg?style=flat "Languages")
+![Repo size](https://img.shields.io/github/repo-size/prod3v3loper/css-grid.svg?style=flat "Repo size")
+![Languages](https://img.shields.io/github/languages/code-size/prod3v3loper/css-grid.svg?style=flat "Languages")
+![License](https://img.shields.io/github/license/prod3v3loper/css-grid.svg?style=flat "License")
 
-My own css grid repository
+This is a css repo with calculated grids
 
 > A curated list of awesome CSS grids
 

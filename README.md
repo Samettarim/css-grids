@@ -1,9 +1,11 @@
 # CSS GRID SET
 
+![Language](https://img.shields.io/github/languages/top/prod3v3loper/css-grid.svg?style=flat "Language")
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8b3e23d14b88426d83660ad87bca129d)](https://www.codacy.com/app/prod3v3loper/css-grid?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=prod3v3loper/css-grid&amp;utm_campaign=Badge_Grade)
 ![Languages](https://img.shields.io/github/languages/count/prod3v3loper/css-grid.svg?style=flat "Languages")
+![Size](https://img.shields.io/github/size/prod3v3loper/css-grid/grid.css.svg?style=flat "Size")
+![Code size](https://img.shields.io/github/languages/code-size/prod3v3loper/css-grid.svg?style=flat "Code size")
 ![Repo size](https://img.shields.io/github/repo-size/prod3v3loper/css-grid.svg?style=flat "Repo size")
-![Languages](https://img.shields.io/github/languages/code-size/prod3v3loper/css-grid.svg?style=flat "Languages")
 ![License](https://img.shields.io/github/license/prod3v3loper/css-grid.svg?style=flat "License")
 [![alt text](https://img.shields.io/website-up-down-green-red/https/www.tnado.com/open-source-projects-by-prod3v3loper.svg?style=flat "Website")](https://www.tnado.com/open-source-projects-by-prod3v3loper/ "Website")
 

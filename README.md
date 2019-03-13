@@ -1,3 +1,5 @@
+<div align="center">
+
 # CSS GRID SET
 
 ![Language](https://img.shields.io/github/languages/top/prod3v3loper/css-grid.svg?style=flat "Language")
@@ -7,22 +9,24 @@
 ![Code size](https://img.shields.io/github/languages/code-size/prod3v3loper/css-grid.svg?style=flat "Code size")
 ![Repo size](https://img.shields.io/github/repo-size/prod3v3loper/css-grid.svg?style=flat "Repo size")
 ![License](https://img.shields.io/github/license/prod3v3loper/css-grid.svg?style=flat "License")
-[![alt text](https://img.shields.io/website-up-down-green-red/https/www.tnado.com/open-source-projects-by-prod3v3loper.svg?style=flat "Website")](https://www.tnado.com/open-source-projects-by-prod3v3loper/ "Website")
+[![Website](https://img.shields.io/website-up-down-green-red/https/www.tnado.com/open-source-projects-by-prod3v3loper.svg?style=flat "Website")](https://www.tnado.com/open-source-projects-by-prod3v3loper/ "Website")
 
 This is a css repo with calculated grids
 
 > A curated list of awesome CSS grids
 
-* [Tests Preview](test/img/tests.png)
+[Tests Preview](test/img/tests.png)
 
 ### This repository has some grids for you:
+
+</div>
 
 * [l-cell](partials/_cell.css) 13 cell
 * [l-col](partials/_col.css) 24 col
 * [l-grid](partials/_grid.css) 12 grid
 * [l-row](partials/_row.css) 16 row
 
-## Usage
+# Usage
 
 ### General Usage
 
@@ -88,20 +92,24 @@ project css or less/sass folder structur and use the grid, col, cell or row as s
 <div class="l-clear"></div>
 ```
 
-## Contribute
+<div align="center">
+
+# Contribute
 
 Please [file an issue](https://github.com/Samettarim/less-mixins/issues) if you
 think something could be improved. Please submit Pull Requests when ever
 possible.
 
-## Built with
+# Built with
 
-* [NetBeans](https://netbeans.org/) - NetBeans editor for error-free code
+[NetBeans](https://netbeans.org/) - NetBeans editor for error-free code
 
-## Authors
+# Authors
 
-* **Samet Tarim** - *All works* - [prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
+**Samet Tarim** - *All works*
 
-## License
+# License
 
-[GNU](https://github.com/prod3v3loper/css-grid/blob/master/LICENSE)
+[GNU](https://github.com/prod3v3loper/css-grid/blob/master/LICENSE) - [prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
+
+</div>
